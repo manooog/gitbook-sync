@@ -48,26 +48,57 @@ Gitbook给了三种文件组织层级。分别是：
 
 可见性选择 Public：
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 > 其他选项需要升级为付费用户
 
 下一步，点击确认后，接下来进行自定义域名配置：
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
-
 <figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src=".gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 先输入域名，随后Gitbook会检查DNS配置：
 
-<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 然后，你需要将以上界面的CNAME信息复制出来，在你域名的DNS解析中添加一条CNAME 配置。然后重试一次。
 
 配置好以后，space右上角会显示已公开，点击Public后可查看当前配置的自定义域名。
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 配置github 同步
 
-> github无法同步图片？
+先说结论：
+
+* 可选择同步方向，github -> gitbook 或者 gitbook -> github
+* 支持选择git仓库分支，支持选择子目录
+* 支持图片同步
+* 文件编辑后随即出发同步行为
+
+下面介绍具体步骤。
+
+点击右上角菜单，然后在下拉列表中选择git同步：
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+Provider可以选择github或gitlab，根据自己喜好进行选择即可。
+
+我选择的是github，接下来Gitbook会提示你进行登录，如果是第一次使用，还需要账户上安装github app，然后才能在账户选择里面找到自己的账户。
+
+<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+在安装github app的时候，会询问app所能访问的仓库权限。这个时候可以创建一个新的仓库，将app的访问权限限定在这个仓库内。
+
+最后，在仓库选择框里，应该可以找到刚才新建的仓库：
+
+<figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+
+接着，根据提示选择分支、子目录、同步方向即可：
+
+<figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
+### 总结
+
+接下来我的公开笔记会在这个gitbook空间更新。
