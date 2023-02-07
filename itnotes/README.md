@@ -42,3 +42,32 @@ Gitbook给了三种文件组织层级。分别是：
 
 我这里根据自己的经验，介绍一下`空间维度` 发布的自定义域名配置方式。
 
+首先，来到space界面，点击左上角发布：
+
+<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+可见性选择 Public：
+
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+> 其他选项需要升级为付费用户
+
+下一步，点击确认后，接下来进行自定义域名配置：
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+先输入域名，随后Gitbook会检查DNS配置：
+
+<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+然后，你需要将以上界面的CNAME信息复制出来，在你域名的DNS解析中添加一条CNAME 配置。然后重试一次。
+
+配置好以后，space右上角会显示已公开，点击Public后可查看当前配置的自定义域名。
+
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+#### 配置github 同步
+
+> github无法同步图片？
