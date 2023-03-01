@@ -4,8 +4,11 @@
 
 公司有自建的cdn网络和fds存储等设施。笔者所在部门的前端项目正是基于公司内部设施进行部署的。
 
+{% code lineNumbers="true" %}
 ```mermaid
 graph LR
     a --> b
 ```
+{% endcode %}
 
+12
